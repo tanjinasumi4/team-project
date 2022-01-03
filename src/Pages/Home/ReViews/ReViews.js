@@ -1,6 +1,7 @@
 import { Container, Grid, Typography } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import ShowReviews from '../ShowReviews/ShowReviews';
+import './ReViews.css'
 
 const ReViews = () => {
     const [reviews, setReviews] = useState([]);
@@ -10,12 +11,12 @@ const ReViews = () => {
             .then(data => setReviews(data))
     }, [])
     return (
-        <div>
-            <Container sx={{ my: 5 }}>
-                <Typography  sx={{my:3,color:'info.main'}} variant="h5">
+        <div className='cardstyle'>
+            <Container sx={{ my:8 }}>
+                <Typography  sx={{my:5,color:'dark'}} variant="h5">
                     Customer Reviews 
                 </Typography>
-                <Grid container spacing={2}>
+                <Grid   container spacing={2}>
                 {
                     reviews.map(review => <ShowReviews
                         review={review}

@@ -2,8 +2,8 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import { Button, Container, Typography } from '@mui/material';
-import description1 from '../../../images/description/description1.png';
-import description3 from '../../../images/description/description3.png';
+import description1 from '../../../images/description/wp2366361.jpg';
+import description3 from '../../../images/description/apple.jpg';
 
 const Description = () => {
     return (
@@ -41,7 +41,7 @@ const Description = () => {
                             Luxury And High Quality
                         </Typography>
                         <Typography variant="body1" gutterBottom>
-                            A wristwatch is a powerful tool that reflects the wearer's character. Men and women who wear luxury watches exude sophistication and confidence when they enter a room. Wearing a luxury watch allows the wearer to express his or her personality with an understated accessory that speaks volumes
+                            A wristwatch is a powerful tool that reflects the wearer's character. Men and women who wear luxury sunglasses exude sophistication and confidence when they enter a room. Wearing a luxury sunglass allows the wearer to express his or her personality with an understated accessory that speaks volumes
                         </Typography>
                         <Button sx={{my:4,px:4}} variant="outlined">Shop Now</Button>
                         
